@@ -1,0 +1,21 @@
+{
+  "buildFiles": [
+    "/home/sam/android-ndk-r14b/build/cmake/android.toolchain.cmake",
+    "/home/sam/openclexample1/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/sam/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/sam/openclexample1/app/.cxx/cmake/debug/x86\" clean"
+  ],
+  "buildTargetsCommand": "/home/sam/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/sam/openclexample1/app/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "openclexample1-Debug-x86": {
+      "artifactName": "openclexample1",
+      "buildCommand": "/home/sam/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/sam/openclexample1/app/.cxx/cmake/debug/x86\" openclexample1",
+      "abi": "x86",
+      "output": "/home/sam/openclexample1/app/build/intermediates/cmake/debug/obj/x86/libopenclexample1.so",
+      "runtimeFiles": [
+        "/home/sam/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/libgnustl_static.a"
+      ]
+    }
+  }
+}

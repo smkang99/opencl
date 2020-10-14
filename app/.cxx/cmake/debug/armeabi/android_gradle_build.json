@@ -1,0 +1,54 @@
+{
+  "stringTable": {
+    "0": "/home/sam/openclexample1/app/.cxx/cmake/debug/armeabi",
+    "1": "--target=armv5te-none-linux-androideabi --gcc-toolchain=/home/sam/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/sam/android-ndk-r14b/platforms/android-14/arch-arm -Dopenclexample1_EXPORTS -I../../../../src/main/jni/OpenCL -isystem /home/sam/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/sam/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/sam/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/home/sam/android-ndk-r14b/build/cmake/android.toolchain.cmake",
+    "/home/sam/openclexample1/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/sam/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/sam/openclexample1/app/.cxx/cmake/debug/armeabi\" clean"
+  ],
+  "buildTargetsCommand": "/home/sam/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/sam/openclexample1/app/.cxx/cmake/debug/armeabi\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "openclexample1-Debug-armeabi": {
+      "buildCommand": "/home/sam/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/sam/openclexample1/app/.cxx/cmake/debug/armeabi\" openclexample1",
+      "buildType": "debug",
+      "toolchain": "450426560",
+      "abi": "armeabi",
+      "artifactName": "openclexample1",
+      "files": [
+        {
+          "src": "/home/sam/openclexample1/app/src/main/jni/OpenCLexample1.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/sam/openclexample1/app/src/main/jni/openCLNR.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/sam/openclexample1/app/src/main/jni/refNR.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/sam/openclexample1/app/build/intermediates/cmake/debug/obj/armeabi/libopenclexample1.so",
+      "runtimeFiles": [
+        "/home/sam/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a"
+      ]
+    }
+  },
+  "toolchains": {
+    "450426560": {
+      "cppCompilerExecutable": "/home/sam/android-ndk-r14b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

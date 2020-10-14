@@ -1,0 +1,19 @@
+[
+{
+  "directory": "/home/sam/openclexample1/app/.cxx/cmake/debug/x86",
+  "command": "/home/sam/android-ndk-r14b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android --gcc-toolchain=/home/sam/android-ndk-r13b/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/sam/android-ndk-r13b/platforms/android-14/arch-x86  -Dopenclexample1_EXPORTS -I../../../../src/main/jni/OpenCL -isystem /home/sam/android-ndk-r13b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/sam/android-ndk-r13b/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/sam/android-ndk-r13b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/openclexample1.dir/src/main/jni/OpenCLexample1.cpp.o -c /home/sam/openclexample1/app/src/main/jni/OpenCLexample1.cpp",
+  "file": "/home/sam/openclexample1/app/src/main/jni/OpenCLexample1.cpp"
+},
+
+{
+  "directory": "/home/sam/openclexample1/app/.cxx/cmake/debug/x86",
+  "command": "/home/sam/android-ndk-r14b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android --gcc-toolchain=/home/sam/android-ndk-r13b/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/sam/android-ndk-r13b/platforms/android-14/arch-x86  -Dopenclexample1_EXPORTS -I../../../../src/main/jni/OpenCL -isystem /home/sam/android-ndk-r13b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/sam/android-ndk-r13b/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/sam/android-ndk-r13b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/openclexample1.dir/src/main/jni/openCLNR.cpp.o -c /home/sam/openclexample1/app/src/main/jni/openCLNR.cpp",
+  "file": "/home/sam/openclexample1/app/src/main/jni/openCLNR.cpp"
+},
+
+{
+  "directory": "/home/sam/openclexample1/app/.cxx/cmake/debug/x86",
+  "command": "/home/sam/android-ndk-r14b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android --gcc-toolchain=/home/sam/android-ndk-r13b/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/sam/android-ndk-r13b/platforms/android-14/arch-x86  -Dopenclexample1_EXPORTS -I../../../../src/main/jni/OpenCL -isystem /home/sam/android-ndk-r13b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/sam/android-ndk-r13b/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/sam/android-ndk-r13b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/openclexample1.dir/src/main/jni/refNR.cpp.o -c /home/sam/openclexample1/app/src/main/jni/refNR.cpp",
+  "file": "/home/sam/openclexample1/app/src/main/jni/refNR.cpp"
+}
+]

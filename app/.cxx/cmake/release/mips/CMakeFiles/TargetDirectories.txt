@@ -1,0 +1,3 @@
+/home/sam/openclexample1/app/.cxx/cmake/release/mips/CMakeFiles/rebuild_cache.dir
+/home/sam/openclexample1/app/.cxx/cmake/release/mips/CMakeFiles/edit_cache.dir
+/home/sam/openclexample1/app/.cxx/cmake/release/mips/CMakeFiles/openclexample1.dir

@@ -1,0 +1,19 @@
+[
+{
+  "directory": "/home/sam/openclexample1/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/home/sam/android-ndk-r14b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi --gcc-toolchain=/home/sam/android-ndk-r13b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/sam/android-ndk-r13b/platforms/android-14/arch-arm  -Dopenclexample1_EXPORTS -I../../../../src/main/jni/OpenCL -isystem /home/sam/android-ndk-r13b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/sam/android-ndk-r13b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /home/sam/android-ndk-r13b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -Os -DNDEBUG  -fPIC   -o CMakeFiles/openclexample1.dir/src/main/jni/OpenCLexample1.cpp.o -c /home/sam/openclexample1/app/src/main/jni/OpenCLexample1.cpp",
+  "file": "/home/sam/openclexample1/app/src/main/jni/OpenCLexample1.cpp"
+},
+
+{
+  "directory": "/home/sam/openclexample1/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/home/sam/android-ndk-r14b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi --gcc-toolchain=/home/sam/android-ndk-r13b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/sam/android-ndk-r13b/platforms/android-14/arch-arm  -Dopenclexample1_EXPORTS -I../../../../src/main/jni/OpenCL -isystem /home/sam/android-ndk-r13b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/sam/android-ndk-r13b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /home/sam/android-ndk-r13b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -Os -DNDEBUG  -fPIC   -o CMakeFiles/openclexample1.dir/src/main/jni/openCLNR.cpp.o -c /home/sam/openclexample1/app/src/main/jni/openCLNR.cpp",
+  "file": "/home/sam/openclexample1/app/src/main/jni/openCLNR.cpp"
+},
+
+{
+  "directory": "/home/sam/openclexample1/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/home/sam/android-ndk-r14b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi --gcc-toolchain=/home/sam/android-ndk-r13b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/sam/android-ndk-r13b/platforms/android-14/arch-arm  -Dopenclexample1_EXPORTS -I../../../../src/main/jni/OpenCL -isystem /home/sam/android-ndk-r13b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/sam/android-ndk-r13b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /home/sam/android-ndk-r13b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -Os -DNDEBUG  -fPIC   -o CMakeFiles/openclexample1.dir/src/main/jni/refNR.cpp.o -c /home/sam/openclexample1/app/src/main/jni/refNR.cpp",
+  "file": "/home/sam/openclexample1/app/src/main/jni/refNR.cpp"
+}
+]

@@ -1,0 +1,22 @@
+{
+  "buildFiles": [
+    "/home/sam/android-ndk-r16b/build/cmake/android.toolchain.cmake",
+    "/home/sam/openclexample1/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/sam/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/sam/openclexample1/app/.cxx/cmake/release/arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "/home/sam/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/sam/openclexample1/app/.cxx/cmake/release/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "openclexample1-Release-arm64-v8a": {
+      "artifactName": "openclexample1",
+      "buildCommand": "/home/sam/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/sam/openclexample1/app/.cxx/cmake/release/arm64-v8a\" openclexample1",
+      "abi": "arm64-v8a",
+      "output": "/home/sam/openclexample1/app/build/intermediates/cmake/release/obj/arm64-v8a/libopenclexample1.so",
+      "runtimeFiles": [
+        "/home/sam/android-ndk-r16b/platforms/android-21/arch-arm64/usr/lib/liblog.so",
+        "/home/sam/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/libgnustl_static.a"
+      ]
+    }
+  }
+}

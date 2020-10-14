@@ -1,0 +1,52 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sony.openclexample1"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->/home/sam/openclexample1/app/src/main/AndroidManifest.xml:7:5-8:41
+8        android:minSdkVersion="14"
+8-->/home/sam/openclexample1/app/src/main/AndroidManifest.xml:7:5-8:41
+9        android:targetSdkVersion="29" />
+9-->/home/sam/openclexample1/app/src/main/AndroidManifest.xml:8:9-38
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/sam/openclexample1/app/src/main/AndroidManifest.xml:10:5-69
+11-->/home/sam/openclexample1/app/src/main/AndroidManifest.xml:10:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/home/sam/openclexample1/app/src/main/AndroidManifest.xml:11:5-81
+12-->/home/sam/openclexample1/app/src/main/AndroidManifest.xml:11:22-78
+13
+14    <application
+14-->/home/sam/openclexample1/app/src/main/AndroidManifest.xml:13:5-27:19
+15        android:allowBackup="true"
+15-->/home/sam/openclexample1/app/src/main/AndroidManifest.xml:14:9-35
+16        android:debuggable="true"
+17        android:icon="@drawable/ic_launcher"
+17-->/home/sam/openclexample1/app/src/main/AndroidManifest.xml:15:9-45
+18        android:label="@string/app_name"
+18-->/home/sam/openclexample1/app/src/main/AndroidManifest.xml:16:9-41
+19        android:testOnly="true"
+20        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+20-->/home/sam/openclexample1/app/src/main/AndroidManifest.xml:17:9-67
+21        <activity
+21-->/home/sam/openclexample1/app/src/main/AndroidManifest.xml:18:9-26:20
+22            android:name="com.sony.openclexample1.OpenCLActivity"
+22-->/home/sam/openclexample1/app/src/main/AndroidManifest.xml:19:13-66
+23            android:label="@string/app_name" >
+23-->/home/sam/openclexample1/app/src/main/AndroidManifest.xml:20:13-45
+24            <intent-filter>
+24-->/home/sam/openclexample1/app/src/main/AndroidManifest.xml:21:13-25:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->/home/sam/openclexample1/app/src/main/AndroidManifest.xml:22:17-69
+25-->/home/sam/openclexample1/app/src/main/AndroidManifest.xml:22:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->/home/sam/openclexample1/app/src/main/AndroidManifest.xml:24:17-77
+27-->/home/sam/openclexample1/app/src/main/AndroidManifest.xml:24:27-74
+28            </intent-filter>
+29        </activity>
+30    </application>
+31
+32</manifest>
