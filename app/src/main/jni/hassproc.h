@@ -1,6 +1,7 @@
 #ifndef HASSPROC_H
 #define HASSPROC_H
 
+#include <jni.h>
 #include "kernel.h"
 
 //typedef signed char jbyte;

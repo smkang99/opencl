@@ -35,6 +35,8 @@
 #define __CL_ENABLE_EXCEPTIONS
 
 #include "openCLNR.h"
+#include "hassproc.h"
+
 
 inline std::string loadProgram(std::string input)
 {
@@ -89,10 +91,17 @@ void openCLNR (unsigned char* bufIn, unsigned char* bufOut, int* info)
         //PreKernel;
         size_t globalSize[2]  = {(size_t)(width), (size_t)height};
         size_t *localSize     = NULL;
+
 		cl::Kernel prekernel(program, "PreKernel", &err);
 		cl::Buffer bufferIn = cl::Buffer(context, CL_MEM_READ_WRITE | CL_MEM_COPY_HOST_PTR, imageSize, (void *) &bufIn[0], &err);
 		cl::Buffer bufferOut = cl::Buffer(context, CL_MEM_READ_WRITE | CL_MEM_USE_HOST_PTR, imageSize, (void *) &bufOut[0], &err);
 
+		int hass_channel =16, hass_spectrum = 4;
+
+        int d_recon_coef_sz = hass_channel * hass_spectrum * sizeof(float);
+        float *hass_recon_coef = new float[hass_channel * hass_spectrum];
+        cl::Buffer d_recon_coef = cl::Buffer(context, CL_MEM_READ_WRITE | CL_MEM_USE_HOST_PTR, d_recon_coef_sz, (void *)&hass_recon_coef[0], &err);
+        cl::Buffer d_sat_map;
 
 		prekernel.setArg(0,bufferIn);
 		prekernel.setArg(1,bufferOut);
@@ -151,15 +160,31 @@ void openCLNR (unsigned char* bufIn, unsigned char* bufOut, int* info)
 
 
         //Reduction
-        int hass_channel, hass_spectrum;
+        int hass_raw_input_bit =10, hass_sat_th;
+        hass_sat_th = (1 << hass_raw_input_bit) - 1 -blackLevel -1;
+        float hass_sat_val = (float)hass_sat_th;
 
-        int d_recon_coef_sz = hass_channel * hass_spectrum * sizeof(float);
         cl::Kernel recon_kernel(program, "ReconKernel", &err);
         recon_kernel.setArg(0, bufferOut);
         recon_kernel.setArg(1, bufferIn);
-        //recon_kernel.setArg(2,d_recon_coef);
+        recon_kernel.setArg(2, d_recon_coef);
+        recon_kernel.setArg(3, d_sat_map);
+        recon_kernel.setArg(4, hass_sat_val);
+        recon_kernel.setArg(5, width);
+        recon_kernel.setArg(6, height);
+
 		cl_int dimSiz   = 2;
-        //queue.enqueueNDRangeKernel(recon_kernel,dimSiz,cl::NDRange(width,height),cl::NDRange(128,8), NULL, &event);
+        queue.enqueueNDRangeKernel(recon_kernel,dimSiz,cl::NDRange(width,height),cl::NDRange(128,8), NULL, &event);
+
+        //		swap in and out buffer pointers and run a 3rd time
+        kernel.setArg(0,bufferIn);
+        kernel.setArg(1,bufferOut);
+        queue.enqueueNDRangeKernel(	kernel,
+                                       cl::NullRange,
+                                       cl::NDRange(width,height),
+                                       cl::NullRange,
+                                       NULL,
+                                       &event);
 
 		queue.finish();
 
