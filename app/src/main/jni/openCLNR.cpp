@@ -86,7 +86,7 @@ void openCLNR (unsigned char* bufIn, unsigned char* bufOut, int* info)
 		const char *options = "-cl-fast-relaxed-math";
 		program.build(devices, options);
 
-
+        //PreKernel;
         size_t globalSize[2]  = {(size_t)(width), (size_t)height};
         size_t *localSize     = NULL;
 		cl::Kernel prekernel(program, "PreKernel", &err);
@@ -108,7 +108,7 @@ void openCLNR (unsigned char* bufIn, unsigned char* bufOut, int* info)
 		queue.enqueueNDRangeKernel(prekernel, cl::NullRange, cl::NDRange(
 				width, height), cl::NullRange, 0, NULL);
 
-        //
+        //Noise reduction
 		cl::Kernel kernel(program, "bilateralFilterKernel", &err);
 
 		kernel.setArg(0,bufferIn);
@@ -148,6 +148,18 @@ void openCLNR (unsigned char* bufIn, unsigned char* bufOut, int* info)
 				cl::NullRange,
 				NULL,
 				&event);
+
+
+        //Reduction
+        int hass_channel, hass_spectrum;
+
+        int d_recon_coef_sz = hass_channel * hass_spectrum * sizeof(float);
+        cl::Kernel recon_kernel(program, "ReconKernel", &err);
+        recon_kernel.setArg(0, bufferOut);
+        recon_kernel.setArg(1, bufferIn);
+        //recon_kernel.setArg(2,d_recon_coef);
+		cl_int dimSiz   = 2;
+        //queue.enqueueNDRangeKernel(recon_kernel,dimSiz,cl::NDRange(width,height),cl::NDRange(128,8), NULL, &event);
 
 		queue.finish();
 
