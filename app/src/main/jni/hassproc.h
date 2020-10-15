@@ -9,6 +9,7 @@
 #define HASS_KERNEL_NUM 19
 #define COEFF_FOR_DEMO_LENS
 
+
 typedef enum {
     HASS_PRE_PROCESSING=0,
     HASS_GUIDE,
