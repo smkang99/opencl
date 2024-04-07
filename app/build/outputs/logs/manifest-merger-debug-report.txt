@@ -1,71 +1,71 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml:2:1-29:12
+ADDED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml:2:1-29:12
 	package
-		ADDED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml:3:5-38
-		INJECTED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml
-		INJECTED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml
+		ADDED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml:3:5-38
+		INJECTED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml:5:5-30
-		INJECTED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml
-		INJECTED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml
+		ADDED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml:4:5-28
-		INJECTED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml
-		INJECTED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml
+		ADDED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml
 uses-sdk
-ADDED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml:7:5-8:41
-INJECTED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml:7:5-8:41
-INJECTED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml:7:5-8:41
-INJECTED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml:7:5-8:41
-INJECTED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml:7:5-8:41
+ADDED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml:7:5-8:41
+INJECTED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml:7:5-8:41
+INJECTED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml:7:5-8:41
+INJECTED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml:7:5-8:41
+INJECTED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml:7:5-8:41
 	android:targetSdkVersion
-		ADDED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml:8:9-38
-		INJECTED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml
-		INJECTED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml
+		ADDED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml:8:9-38
+		INJECTED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml
-		ADDED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml:7:5-8:41
-		INJECTED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml
+		ADDED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml:7:5-8:41
+		INJECTED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml:10:5-69
+ADDED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml:10:5-69
 	android:name
-		ADDED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml:10:22-64
+		ADDED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml:10:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml:11:5-81
+ADDED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml:11:5-81
 	android:name
-		ADDED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml:11:22-78
+		ADDED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml:11:22-78
 application
-ADDED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml:13:5-27:19
+ADDED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml:13:5-27:19
 	android:label
-		ADDED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml:16:9-41
+		ADDED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml:16:9-41
 	android:icon
-		ADDED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml:15:9-45
+		ADDED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml:15:9-45
 	android:allowBackup
-		ADDED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml:14:9-35
+		ADDED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml:14:9-35
 	android:theme
-		ADDED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml:17:9-67
+		ADDED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml:17:9-67
 activity#com.sony.openclexample1.OpenCLActivity
-ADDED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml:18:9-26:20
+ADDED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml:18:9-26:20
 	android:label
-		ADDED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml:20:13-45
+		ADDED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml:20:13-45
 	android:name
-		ADDED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml:19:13-66
+		ADDED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml:19:13-66
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml:21:13-25:29
+ADDED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml:22:17-69
+ADDED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml:22:25-66
+		ADDED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml:24:17-77
+ADDED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from /home/sam/openclexample1/app/src/main/AndroidManifest.xml:24:27-74
+		ADDED from /Users/christinekang/Documents/opencl/app/src/main/AndroidManifest.xml:24:27-74

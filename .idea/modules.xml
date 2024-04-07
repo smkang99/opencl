@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/openclexample1.iml" filepath="$PROJECT_DIR$/.idea/modules/openclexample1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/openclexample1.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/openclexample1.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/opencl.iml" filepath="$PROJECT_DIR$/.idea/modules/opencl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/opencl.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/opencl.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/opencl.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/opencl.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/opencl.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/opencl.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/opencl.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/opencl.app.unitTest.iml" />
     </modules>
   </component>
 </project>

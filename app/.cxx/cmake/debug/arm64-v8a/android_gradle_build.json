@@ -1,53 +1,38 @@
 {
-  "stringTable": {
-    "0": "/home/sam/openclexample1/app/.cxx/cmake/debug/arm64-v8a",
-    "1": "--target=aarch64-none-linux-android --gcc-toolchain=/home/sam/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/sam/android-ndk-r16b/sysroot -Dopenclexample1_EXPORTS -I../../../../src/main/jni/OpenCL -isystem /home/sam/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/sam/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /home/sam/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /home/sam/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -O0 -fno-limit-debug-info -fPIC"
-  },
+  "stringTable": {},
   "buildFiles": [
-    "/home/sam/android-ndk-r16b/build/cmake/android.toolchain.cmake",
-    "/home/sam/openclexample1/app/CMakeLists.txt"
+    "/Users/christinekang/Documents/opencl/app/CMakeLists.txt"
   ],
-  "cleanCommands": [
-    "/home/sam/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/sam/openclexample1/app/.cxx/cmake/debug/arm64-v8a\" clean"
+  "cleanCommandsComponents": [
+    [
+      "/Users/christinekang/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/Users/christinekang/Documents/opencl/app/.cxx/cmake/debug/arm64-v8a",
+      "clean"
+    ]
   ],
-  "buildTargetsCommand": "/home/sam/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/sam/openclexample1/app/.cxx/cmake/debug/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommandComponents": [
+    "/Users/christinekang/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/Users/christinekang/Documents/opencl/app/.cxx/cmake/debug/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
   "libraries": {
     "openclexample1-Debug-arm64-v8a": {
-      "buildCommand": "/home/sam/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/sam/openclexample1/app/.cxx/cmake/debug/arm64-v8a\" openclexample1",
+      "buildCommandComponents": [
+        "/Users/christinekang/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/christinekang/Documents/opencl/app/.cxx/cmake/debug/arm64-v8a",
+        "openclexample1"
+      ],
       "buildType": "debug",
-      "toolchain": "894327234",
       "abi": "arm64-v8a",
       "artifactName": "openclexample1",
-      "files": [
-        {
-          "src": "/home/sam/openclexample1/app/src/main/jni/OpenCLexample1.cpp",
-          "flagsOrdinal": 1,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/home/sam/openclexample1/app/src/main/jni/openCLNR.cpp",
-          "flagsOrdinal": 1,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "/home/sam/openclexample1/app/src/main/jni/refNR.cpp",
-          "flagsOrdinal": 1,
-          "workingDirectoryOrdinal": 0
-        }
-      ],
-      "headers": [],
-      "output": "/home/sam/openclexample1/app/build/intermediates/cmake/debug/obj/arm64-v8a/libopenclexample1.so",
-      "runtimeFiles": [
-        "/home/sam/android-ndk-r16b/platforms/android-21/arch-arm64/usr/lib/liblog.so",
-        "/home/sam/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/libgnustl_static.a"
-      ]
+      "output": "/Users/christinekang/Documents/opencl/app/build/intermediates/cmake/debug/obj/arm64-v8a/libopenclexample1.so",
+      "runtimeFiles": []
     }
   },
-  "toolchains": {
-    "894327234": {
-      "cppCompilerExecutable": "/home/sam/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
-    }
-  },
+  "toolchains": {},
   "cFileExtensions": [],
   "cppFileExtensions": [
     "cpp"
